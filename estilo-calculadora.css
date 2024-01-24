@@ -1,84 +1,57 @@
 @charset "UTF-8";
 
 *{
-    margin: 0px;
-    padding: 0px;
-    border: none;
-}
-body{
-    background-color: rgb(48, 48, 48);
+    margin: 0PX;
+    padding: 0PX;
 }
 h1{
+   padding-top: 50px;
+   font-size: 3em;
+   text-align: center;
+}
+h2{
+    color: rgb(224, 224, 224);
     text-align: center;
-    padding-top: 30px;
-    font-size: 1,4em;
+    font-weight: normal;
 }
-main{
-    background-color: rgb(126, 124, 124);
-    color: white;
-    height: 80vh;
-    width: 60vw;
-    margin-left: 20%;
-    margin-top: 30px;
-    border-radius: 20px;
-    box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.514);
+.fundo{
+   background-image: linear-gradient(45deg, rgb(105, 71, 71), rgb(255, 208, 0), rgb(134, 18, 18));
+   height: 100vh;
 }
-.caixa{
-    display: flex;
-    justify-content: center;
-    width: 5%;
-    padding: 15px;
-    border: 2px solid white;
-    box-shadow: 3px 3px 10px black;
-    margin: 5%;
-    cursor: pointer;
 
-}
-#div1{
+#resultado{
     background-color: white;
-    border: 2px solid white;
-    width: 45vw;
-    height: 5vh;
-    display: flex;
-    justify-content: center;
-    margin-left: 14%;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.664);
-    border-radius: 10px;
-}
-#caixa1{
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-}
+    width: 325px;
+    height: 40px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
 
-.c1{
-    float: left;
-    font-size: 2em;
-    background-color: rgb(77, 76, 76);
-    border-radius: 8px;
 }
-#caixa2{
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  
+.calculadora{
+    position: absolute;
+    background-color: rgba(61, 61, 61, 0.904);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 8px 0px 10px rgba(0, 0, 0, 0.589);
+    
+
 }
-.c2{
-float: left;
-font-size: 2em;
-background-color: rgb(77, 76, 76);
-border-radius: 8px;
+.botao{
+    background-color: rgba(255, 254, 254, 0.555);
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    margin: 2px;
 }
-#caixa3{
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-}
-.c3{
- float: left;
- font-size: 2em;
- background-color: rgb(77, 76, 76);
- border-radius: 8px;
+.botao:hover{
+    background-color: rgb(109, 108, 108);
+    color: white;
 }
