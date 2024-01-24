@@ -5,14 +5,13 @@
     padding: 0PX;
 }
 h1{
-   padding-top: 50px;
-   font-size: 3em;
-   text-align: center;
+    text-align: center;
 }
 h2{
     color: rgb(224, 224, 224);
     text-align: center;
     font-weight: normal;
+    font-size: 3em;
 }
 .fundo{
    background-image: linear-gradient(45deg, rgb(105, 71, 71), rgb(255, 208, 0), rgb(134, 18, 18));
@@ -21,8 +20,8 @@ h2{
 
 #resultado{
     background-color: white;
-    width: 325px;
-    height: 40px;
+    width: 486px;
+    height: 80px;
     margin: 5px;
     font-size: 25px;
     color: black;
@@ -44,8 +43,8 @@ h2{
 }
 .botao{
     background-color: rgba(255, 254, 254, 0.555);
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     font-size: 25px;
     cursor: pointer;
     border: none;
