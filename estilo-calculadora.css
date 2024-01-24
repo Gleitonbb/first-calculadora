@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+body{
+    background-color: rgb(48, 48, 48);
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 1,4em;
+}
+main{
+    background-color: rgb(126, 124, 124);
+    color: white;
+    height: 80vh;
+    width: 60vw;
+    margin-left: 20%;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.514);
+}
+.caixa{
+    display: flex;
+    justify-content: center;
+    width: 5%;
+    padding: 15px;
+    border: 2px solid white;
+    box-shadow: 3px 3px 10px black;
+    margin: 5%;
+    cursor: pointer;
+
+}
+#div1{
+    background-color: white;
+    border: 2px solid white;
+    width: 45vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    margin-left: 14%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.664);
+    border-radius: 10px;
+}
+#caixa1{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.c1{
+    float: left;
+    font-size: 2em;
+    background-color: rgb(77, 76, 76);
+    border-radius: 8px;
+}
+#caixa2{
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  
+}
+.c2{
+float: left;
+font-size: 2em;
+background-color: rgb(77, 76, 76);
+border-radius: 8px;
+}
+#caixa3{
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.c3{
+ float: left;
+ font-size: 2em;
+ background-color: rgb(77, 76, 76);
+ border-radius: 8px;
+}
